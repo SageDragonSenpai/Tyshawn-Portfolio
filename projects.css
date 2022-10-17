@@ -78,62 +78,9 @@ text-align: center;
     color: white;
 }
 
-.bio{
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    color: black;
-    padding: 1.2rem 2rem;
-}
-
-
-.bio-components .bioContainer{
-    -webkit-box-align: center;
-    align-items: center;
-    grid-template-areas: "header header" "image text";
-    grid-template-columns: 1fr 2fr;
-    display: grid;
-    background: red;
-}
-
-
-.bio-components .bioContainer h1{
-    grid-area: header / header / header / header;
-}
-
-
-
-
-
-
-.imageComponents img{
-border-radius: 20px;
-grid-area: image / image / image / image;
-
-
-}
-
 img{
-   max-width: 100%;
-   margin-left: 0;
-   margin-right: 0;
-   margin-top: 0;
-   padding-bottom: 0;
-   padding-left: 0;
-   padding-right: 0;
-   padding-top: 0;
-   margin-bottom: 1.75rem;
-   border-style: none; 
-   justify-content: space-between;
-   
-}
-
-.bioText{
-    max-width: 100%;
-    
-}
-
-.bioText .skillsIcon ul{
+    max-width:300px;
+    border-radius: 20px;
     margin: 0;
-    
+    padding: 10px 10px;
 }
